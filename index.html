@@ -254,7 +254,7 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
       <div class="s-label">About Me</div>
       <h2 class="s-title">Designing for <em>impact,</em><br/>not just completion</h2>
       <div class="about-bio">
-        <p>I'm a Junior Instructional Designer with 1 year of hands-on experience developing e-learning in the cybersecurity industry: shipping 6 SCORM courses and supporting LMS operations for 3,000+ active users.</p>
+        <p>I'm a Junior Instructional Designer with hands-on experience developing e-learning in the cybersecurity industry: shipping 7 SCORM courses and supporting LMS operations for 3,000+ active users.</p>
         <p>I believe good learning design starts long before development, with understanding the business goals, the learner's context, and the performance gap that actually needs closing.</p>
         <p>My approach is learner-centered and outcome-driven. I'm growing toward the full ID spectrum: needs analysis, learning experience design, and evidence-based instructional strategy.</p>
       </div>
@@ -286,7 +286,7 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
         </div>
       </div>
       
-      <div class="project-details">
+      <div class="project-details" style="grid-template-columns:1fr 1fr;">
         <div class="project-detail-card">
           <div class="project-detail-label">Context</div>
           <p class="project-detail-body">Employees have been reporting several CEO impersonation scam attempts on them. So we create a simulation based on real case example to reinforce awareness and reduce risk of financial loss and data breaches.</p>
@@ -299,9 +299,17 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
             <li>Engineered "Immediate Consequence" paths showing the direct result of each learner choice.</li>
           </ul>
         </div>
+      </div>
+      <div class="project-details" style="grid-template-columns:1fr;margin-bottom:28px;">
         <div class="project-detail-card">
           <div class="project-detail-label">Design Strategy</div>
-          <p class="project-detail-body">Applied Scenario-Based Learning (SBL) to move beyond passive recognition of phishing into active behavioral application, building the muscle memory needed to identify and report threats in real-time.</p>
+          <div class="project-detail-body">
+            <p>I designed the simulation to achieve two purposes simultaneously: immersion and education.</p>
+            <p style="margin-top:10px"><strong>Immersion:</strong> Learners are placed directly into the scenario — receiving a CEO smishing message and deciding how to respond in real time.</p>
+            <p style="margin-top:10px"><strong>Education:</strong> The employee character's internal monologue points out suspicious patterns and psychological tactics without naming them explicitly. Learners think alongside the character, not just observe.</p>
+            <p style="margin-top:10px"><strong>The Branching Point:</strong> Learners face one critical decision — comply with the gift card request, or redirect to official channels. No safe middle ground. Each choice leads to immediate consequences, so learners feel the cost of their decision.</p>
+            <p style="margin-top:10px; font-style:italic;">The underlying principle: recognition alone doesn't change behavior. Learners need to feel the decision to remember it.</p>
+          </div>
         </div>
       </div>
       
@@ -319,7 +327,7 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
   <div class="project-section p2 reveal">
     <div class="project-inner">
       <div class="project-num">02 · Sales Enablement</div>
-      <h3 class="project-title">8-Pack <em>MD Core</em></h3>
+      <h3 class="project-title">Sales Enablement <em>Product Training</em></h3>
       <p class="project-overview">Interactive sales training module designed to equip sales representatives with core product knowledge and effective positioning strategies.</p>
       
       <div class="project-thumb">
@@ -332,7 +340,7 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
         </div>
       </div>
       
-      <div class="project-details">
+      <div class="project-details" style="grid-template-columns:1fr 1fr;">
         <div class="project-detail-card">
           <div class="project-detail-label">Context</div>
           <p class="project-detail-body">Sales reps required structured product understanding to communicate value propositions effectively, handle conversation with leads effectively, and close the deal faster.</p>
@@ -345,9 +353,15 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
             <li>Chunked dense product information into modular, scannable sections.</li>
           </ul>
         </div>
+      </div>
+      <div class="project-details" style="grid-template-columns:1fr;margin-bottom:28px;">
         <div class="project-detail-card">
           <div class="project-detail-label">Design Decisions</div>
-          <p class="project-detail-body">Prioritized high-value selling points over technical density. Modular structure lets reps revisit specific sections, reducing cognitive overload during initial onboarding.</p>
+          <div class="project-detail-body">
+            <p>Each module carried a heavy content load — product problems, solutions, and sales positioning packed into dense, text-heavy copy.</p>
+            <p style="margin-top:10px">Instead of presenting information as-is, I drew inspiration from real sales rep behaviors and designed interactions around those moments.</p>
+            <p style="margin-top:10px"><strong>Example — Buzzword Dictionary:</strong> Instead of a static table, learners drag buzzwords onto a search bar to reveal definitions. This mirrors how a rep actually uses the information: hearing an unfamiliar term mid-conversation and needing quick understanding.</p>
+          </div>
         </div>
       </div>
       
@@ -487,7 +501,7 @@ footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--ink-muted)
 // ── MODAL ──────────────────────────────────────────────────────────────────
 var MODAL_DATA = [
   { title: 'Phishing Awareness: <em>CEO Scam Simulation</em>', url: 'https://learnthefunway.github.io/storyline/CEO_Scam_Smishing/' },
-  { title: 'Sales Enablement: <em>8-Pack MD Core</em>',        url: 'https://learnthefunway.github.io/storyline/sales-enablement-product-training-raw-YQmNFrDf/content/#/lessons/xNtOxcg7fuf0ySl6A8Buzi2R_oWl0Ite' },
+  { title: 'Sales Enablement: <em>8-Pack MD Core</em>',        url: 'https://learnthefunway.github.io/storyline/sales-enablement-product-training-raw-NBAsa9UF/content/#/lessons/xNtOxcg7fuf0ySl6A8Buzi2R_oWl0Ite' },
   { title: 'Gamified Learning: <em>Christmas Dice Game</em>', url: 'https://learnthefunway.github.io/storyline/Christmas_dice_game_2026/' }
 ];
 
